@@ -65,7 +65,7 @@ namespace UFarmControl
             }
         }
 
-
+        public void DeletarDadosBd() { }
 
 
     }

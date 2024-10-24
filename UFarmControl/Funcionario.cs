@@ -20,7 +20,7 @@ namespace UFarmControl
         private String cargo;
         public string getCargo()
         {
-            return nome;
+            return cargo;
         }
         public void setCargo(String cargo)
         {
@@ -73,6 +73,7 @@ namespace UFarmControl
             this.nome = usuario.getNome();
             this.cargo = usuario.getCargo();
             this.cep = usuario.getCep();
+            this.telefone= usuario.getTelefone();
             this.email = usuario.getEmail();
             this.senha = usuario.getSenha();
         }

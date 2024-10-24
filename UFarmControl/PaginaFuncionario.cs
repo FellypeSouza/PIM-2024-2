@@ -24,6 +24,12 @@ namespace UFarmControl
         {
             Funcionario funcionario = new Funcionario(usuario);
             labelNome.Text = "Bem vindo(a) " + funcionario.getNome();
+
+            viewFuncNome.Text = "Nome: " + funcionario.getNome();
+            viewFuncCep.Text = "CEP: " + funcionario.getCep();
+            viewFuncTelefone.Text = "Telefone: " + funcionario.getTelefone();
+            viewFuncCargo.Text = "Cargo: " + funcionario.getCargo();
+            viewFuncEmail.Text = "Email: " + funcionario.getEmail();
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)

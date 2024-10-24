@@ -29,7 +29,7 @@ namespace UFarmControl
         private String cargo;
         public string getCargo()
         {
-            return nome;
+            return cargo;
         }
         public void setCargo(String cargo)
         {

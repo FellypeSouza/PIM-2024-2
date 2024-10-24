@@ -32,6 +32,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button46 = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
             this.button41 = new System.Windows.Forms.Button();
             this.label134 = new System.Windows.Forms.Label();
             this.label133 = new System.Windows.Forms.Label();
@@ -387,16 +391,12 @@
             this.button40 = new System.Windows.Forms.Button();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.button39 = new System.Windows.Forms.Button();
-            this.label259 = new System.Windows.Forms.Label();
-            this.label258 = new System.Windows.Forms.Label();
-            this.label257 = new System.Windows.Forms.Label();
-            this.label256 = new System.Windows.Forms.Label();
-            this.label255 = new System.Windows.Forms.Label();
+            this.viewFuncTelefone = new System.Windows.Forms.Label();
+            this.viewFuncCargo = new System.Windows.Forms.Label();
+            this.viewFuncEmail = new System.Windows.Forms.Label();
+            this.viewFuncCep = new System.Windows.Forms.Label();
+            this.viewFuncNome = new System.Windows.Forms.Label();
             this.labelNome = new System.Windows.Forms.Label();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -501,6 +501,43 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Equipamentos";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // button46
+            // 
+            this.button46.Location = new System.Drawing.Point(333, 318);
+            this.button46.Name = "button46";
+            this.button46.Size = new System.Drawing.Size(202, 23);
+            this.button46.TabIndex = 28;
+            this.button46.Text = "Ver Estatísticas";
+            this.button46.UseVisualStyleBackColor = true;
+            // 
+            // button37
+            // 
+            this.button37.Location = new System.Drawing.Point(615, 318);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(203, 23);
+            this.button37.TabIndex = 27;
+            this.button37.Text = "Ver Estatísticas";
+            this.button37.UseVisualStyleBackColor = true;
+            // 
+            // button34
+            // 
+            this.button34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button34.Location = new System.Drawing.Point(901, 318);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(202, 23);
+            this.button34.TabIndex = 26;
+            this.button34.Text = "Ver Estatísticas";
+            this.button34.UseVisualStyleBackColor = true;
+            // 
+            // button31
+            // 
+            this.button31.Location = new System.Drawing.Point(53, 318);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(201, 23);
+            this.button31.TabIndex = 25;
+            this.button31.Text = "Ver Estatísticas";
+            this.button31.UseVisualStyleBackColor = true;
             // 
             // button41
             // 
@@ -4271,11 +4308,11 @@
             this.tabPage4.Controls.Add(this.button40);
             this.tabPage4.Controls.Add(this.pictureBox15);
             this.tabPage4.Controls.Add(this.button39);
-            this.tabPage4.Controls.Add(this.label259);
-            this.tabPage4.Controls.Add(this.label258);
-            this.tabPage4.Controls.Add(this.label257);
-            this.tabPage4.Controls.Add(this.label256);
-            this.tabPage4.Controls.Add(this.label255);
+            this.tabPage4.Controls.Add(this.viewFuncTelefone);
+            this.tabPage4.Controls.Add(this.viewFuncCargo);
+            this.tabPage4.Controls.Add(this.viewFuncEmail);
+            this.tabPage4.Controls.Add(this.viewFuncCep);
+            this.tabPage4.Controls.Add(this.viewFuncNome);
             this.tabPage4.Location = new System.Drawing.Point(4, 34);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(1166, 545);
@@ -4312,55 +4349,55 @@
             this.button39.Text = "Alterar Dados";
             this.button39.UseVisualStyleBackColor = true;
             // 
-            // label259
+            // viewFuncTelefone
             // 
-            this.label259.AutoSize = true;
-            this.label259.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label259.Location = new System.Drawing.Point(477, 353);
-            this.label259.Name = "label259";
-            this.label259.Size = new System.Drawing.Size(75, 20);
-            this.label259.TabIndex = 4;
-            this.label259.Text = "Telefone:";
+            this.viewFuncTelefone.AutoSize = true;
+            this.viewFuncTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewFuncTelefone.Location = new System.Drawing.Point(477, 353);
+            this.viewFuncTelefone.Name = "viewFuncTelefone";
+            this.viewFuncTelefone.Size = new System.Drawing.Size(75, 20);
+            this.viewFuncTelefone.TabIndex = 4;
+            this.viewFuncTelefone.Text = "Telefone:";
             // 
-            // label258
+            // viewFuncCargo
             // 
-            this.label258.AutoSize = true;
-            this.label258.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label258.Location = new System.Drawing.Point(477, 373);
-            this.label258.Name = "label258";
-            this.label258.Size = new System.Drawing.Size(56, 20);
-            this.label258.TabIndex = 3;
-            this.label258.Text = "Cargo:";
+            this.viewFuncCargo.AutoSize = true;
+            this.viewFuncCargo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewFuncCargo.Location = new System.Drawing.Point(477, 373);
+            this.viewFuncCargo.Name = "viewFuncCargo";
+            this.viewFuncCargo.Size = new System.Drawing.Size(56, 20);
+            this.viewFuncCargo.TabIndex = 3;
+            this.viewFuncCargo.Text = "Cargo:";
             // 
-            // label257
+            // viewFuncEmail
             // 
-            this.label257.AutoSize = true;
-            this.label257.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label257.Location = new System.Drawing.Point(477, 393);
-            this.label257.Name = "label257";
-            this.label257.Size = new System.Drawing.Size(52, 20);
-            this.label257.TabIndex = 2;
-            this.label257.Text = "Email:";
+            this.viewFuncEmail.AutoSize = true;
+            this.viewFuncEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewFuncEmail.Location = new System.Drawing.Point(477, 393);
+            this.viewFuncEmail.Name = "viewFuncEmail";
+            this.viewFuncEmail.Size = new System.Drawing.Size(52, 20);
+            this.viewFuncEmail.TabIndex = 2;
+            this.viewFuncEmail.Text = "Email:";
             // 
-            // label256
+            // viewFuncCep
             // 
-            this.label256.AutoSize = true;
-            this.label256.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label256.Location = new System.Drawing.Point(477, 333);
-            this.label256.Name = "label256";
-            this.label256.Size = new System.Drawing.Size(45, 20);
-            this.label256.TabIndex = 1;
-            this.label256.Text = "CEP:";
+            this.viewFuncCep.AutoSize = true;
+            this.viewFuncCep.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewFuncCep.Location = new System.Drawing.Point(477, 333);
+            this.viewFuncCep.Name = "viewFuncCep";
+            this.viewFuncCep.Size = new System.Drawing.Size(45, 20);
+            this.viewFuncCep.TabIndex = 1;
+            this.viewFuncCep.Text = "CEP:";
             // 
-            // label255
+            // viewFuncNome
             // 
-            this.label255.AutoSize = true;
-            this.label255.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label255.Location = new System.Drawing.Point(476, 298);
-            this.label255.Name = "label255";
-            this.label255.Size = new System.Drawing.Size(70, 25);
-            this.label255.TabIndex = 0;
-            this.label255.Text = "Nome:";
+            this.viewFuncNome.AutoSize = true;
+            this.viewFuncNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewFuncNome.Location = new System.Drawing.Point(476, 298);
+            this.viewFuncNome.Name = "viewFuncNome";
+            this.viewFuncNome.Size = new System.Drawing.Size(70, 25);
+            this.viewFuncNome.TabIndex = 0;
+            this.viewFuncNome.Text = "Nome:";
             // 
             // labelNome
             // 
@@ -4370,43 +4407,6 @@
             this.labelNome.Name = "labelNome";
             this.labelNome.Size = new System.Drawing.Size(0, 20);
             this.labelNome.TabIndex = 2;
-            // 
-            // button31
-            // 
-            this.button31.Location = new System.Drawing.Point(53, 318);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(201, 23);
-            this.button31.TabIndex = 25;
-            this.button31.Text = "Ver Estatísticas";
-            this.button31.UseVisualStyleBackColor = true;
-            // 
-            // button34
-            // 
-            this.button34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button34.Location = new System.Drawing.Point(901, 318);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(202, 23);
-            this.button34.TabIndex = 26;
-            this.button34.Text = "Ver Estatísticas";
-            this.button34.UseVisualStyleBackColor = true;
-            // 
-            // button37
-            // 
-            this.button37.Location = new System.Drawing.Point(615, 318);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(203, 23);
-            this.button37.TabIndex = 27;
-            this.button37.Text = "Ver Estatísticas";
-            this.button37.UseVisualStyleBackColor = true;
-            // 
-            // button46
-            // 
-            this.button46.Location = new System.Drawing.Point(333, 318);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(202, 23);
-            this.button46.TabIndex = 28;
-            this.button46.Text = "Ver Estatísticas";
-            this.button46.UseVisualStyleBackColor = true;
             // 
             // PaginaFuncionario
             // 
@@ -4791,11 +4791,11 @@
         private System.Windows.Forms.Label label252;
         private System.Windows.Forms.Label label253;
         private System.Windows.Forms.Label label254;
-        private System.Windows.Forms.Label label255;
-        private System.Windows.Forms.Label label259;
-        private System.Windows.Forms.Label label258;
-        private System.Windows.Forms.Label label257;
-        private System.Windows.Forms.Label label256;
+        private System.Windows.Forms.Label viewFuncNome;
+        private System.Windows.Forms.Label viewFuncTelefone;
+        private System.Windows.Forms.Label viewFuncCargo;
+        private System.Windows.Forms.Label viewFuncEmail;
+        private System.Windows.Forms.Label viewFuncCep;
         private System.Windows.Forms.Button button39;
         private System.Windows.Forms.Button button40;
         private System.Windows.Forms.PictureBox pictureBox15;

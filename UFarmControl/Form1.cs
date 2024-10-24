@@ -56,6 +56,7 @@ namespace UFarmControl
                 usuario.setTelefone(telefone.Text);
                 usuario.setEmail(email.Text);
                 usuario.setSenha(senha.Text);
+                usuario.setCargo(comboBox1.Text);
                 labelCampoVazio.Text = "";
 
                 if (comboBox1.Text == "Funcionário")
