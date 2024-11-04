@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace UFarmControl
 {
-   public partial class SensorTemperatura : Sensor
+    public partial class Sensor
     {
         public Boolean status;
         public Boolean getStatus()
@@ -27,11 +26,11 @@ namespace UFarmControl
         {
             this.dataColocado = dataColocado;
         }
-        public SensorTemperatura() 
+        public Sensor()
         {
             status = false;
-            //dataColocado = DateTime.Now;
+            
+
         }
-    } 
-   
+    }
 }

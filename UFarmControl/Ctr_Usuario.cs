@@ -10,17 +10,17 @@ namespace UFarmControl
     {
         public void AdicionarDadosBD(Funcionario funcionario)
         {
-            Dao_Usuario Dao_Usuario = new Dao_Usuario();
+            Dao_Usuario Dao_Usuario = new Dao_Usuario("conexao");
             Dao_Usuario.AdicionarDadosBd(funcionario);
         }
         public void AdicionarDadosBD(Gerente gerente)
         {
-            Dao_Usuario Dao_Usuario = new Dao_Usuario();
+            Dao_Usuario Dao_Usuario = new Dao_Usuario("conexao");
             Dao_Usuario.AdicionarDadosBd(gerente);
         }
         public void AdicionarDadosBD(Proprietario proprietario)
         {
-            Dao_Usuario Dao_Usuario = new Dao_Usuario();
+            Dao_Usuario Dao_Usuario = new Dao_Usuario("conexao");
             Dao_Usuario.AdicionarDadosBd(proprietario);
         }
     }

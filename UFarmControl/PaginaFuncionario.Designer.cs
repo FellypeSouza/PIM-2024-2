@@ -37,10 +37,10 @@
             this.button34 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
             this.button41 = new System.Windows.Forms.Button();
-            this.label134 = new System.Windows.Forms.Label();
-            this.label133 = new System.Windows.Forms.Label();
-            this.label132 = new System.Windows.Forms.Label();
-            this.label131 = new System.Windows.Forms.Label();
+            this.dataUmidade = new System.Windows.Forms.Label();
+            this.dataLuminosidade = new System.Windows.Forms.Label();
+            this.dataCo2 = new System.Windows.Forms.Label();
+            this.dataTemperatura = new System.Windows.Forms.Label();
             this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
@@ -49,10 +49,10 @@
             this.button19 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
-            this.label130 = new System.Windows.Forms.Label();
-            this.label129 = new System.Windows.Forms.Label();
-            this.label128 = new System.Windows.Forms.Label();
-            this.label127 = new System.Windows.Forms.Label();
+            this.statusUmidade = new System.Windows.Forms.Label();
+            this.statusLuminosidade = new System.Windows.Forms.Label();
+            this.statusCo2 = new System.Windows.Forms.Label();
+            this.statusTemperatura = new System.Windows.Forms.Label();
             this.label126 = new System.Windows.Forms.Label();
             this.label125 = new System.Windows.Forms.Label();
             this.label124 = new System.Windows.Forms.Label();
@@ -470,10 +470,10 @@
             this.tabPage1.Controls.Add(this.button34);
             this.tabPage1.Controls.Add(this.button31);
             this.tabPage1.Controls.Add(this.button41);
-            this.tabPage1.Controls.Add(this.label134);
-            this.tabPage1.Controls.Add(this.label133);
-            this.tabPage1.Controls.Add(this.label132);
-            this.tabPage1.Controls.Add(this.label131);
+            this.tabPage1.Controls.Add(this.dataUmidade);
+            this.tabPage1.Controls.Add(this.dataLuminosidade);
+            this.tabPage1.Controls.Add(this.dataCo2);
+            this.tabPage1.Controls.Add(this.dataTemperatura);
             this.tabPage1.Controls.Add(this.button22);
             this.tabPage1.Controls.Add(this.button23);
             this.tabPage1.Controls.Add(this.button20);
@@ -482,10 +482,10 @@
             this.tabPage1.Controls.Add(this.button19);
             this.tabPage1.Controls.Add(this.button17);
             this.tabPage1.Controls.Add(this.button16);
-            this.tabPage1.Controls.Add(this.label130);
-            this.tabPage1.Controls.Add(this.label129);
-            this.tabPage1.Controls.Add(this.label128);
-            this.tabPage1.Controls.Add(this.label127);
+            this.tabPage1.Controls.Add(this.statusUmidade);
+            this.tabPage1.Controls.Add(this.statusLuminosidade);
+            this.tabPage1.Controls.Add(this.statusCo2);
+            this.tabPage1.Controls.Add(this.statusTemperatura);
             this.tabPage1.Controls.Add(this.label126);
             this.tabPage1.Controls.Add(this.label125);
             this.tabPage1.Controls.Add(this.label124);
@@ -549,45 +549,45 @@
             this.button41.Text = "Agendar Manutenção";
             this.button41.UseVisualStyleBackColor = true;
             // 
-            // label134
+            // dataUmidade
             // 
-            this.label134.AutoSize = true;
-            this.label134.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label134.Location = new System.Drawing.Point(330, 233);
-            this.label134.Name = "label134";
-            this.label134.Size = new System.Drawing.Size(101, 13);
-            this.label134.TabIndex = 23;
-            this.label134.Text = "Colocado em 23/02";
+            this.dataUmidade.AutoSize = true;
+            this.dataUmidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataUmidade.Location = new System.Drawing.Point(330, 233);
+            this.dataUmidade.Name = "dataUmidade";
+            this.dataUmidade.Size = new System.Drawing.Size(75, 13);
+            this.dataUmidade.TabIndex = 23;
+            this.dataUmidade.Text = "Colocado em: ";
             // 
-            // label133
+            // dataLuminosidade
             // 
-            this.label133.AutoSize = true;
-            this.label133.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label133.Location = new System.Drawing.Point(612, 233);
-            this.label133.Name = "label133";
-            this.label133.Size = new System.Drawing.Size(101, 13);
-            this.label133.TabIndex = 22;
-            this.label133.Text = "Colocado em 23/02";
+            this.dataLuminosidade.AutoSize = true;
+            this.dataLuminosidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataLuminosidade.Location = new System.Drawing.Point(612, 233);
+            this.dataLuminosidade.Name = "dataLuminosidade";
+            this.dataLuminosidade.Size = new System.Drawing.Size(75, 13);
+            this.dataLuminosidade.TabIndex = 22;
+            this.dataLuminosidade.Text = "Colocado em: ";
             // 
-            // label132
+            // dataCo2
             // 
-            this.label132.AutoSize = true;
-            this.label132.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label132.Location = new System.Drawing.Point(898, 233);
-            this.label132.Name = "label132";
-            this.label132.Size = new System.Drawing.Size(101, 13);
-            this.label132.TabIndex = 21;
-            this.label132.Text = "Colocado em 23/02";
+            this.dataCo2.AutoSize = true;
+            this.dataCo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataCo2.Location = new System.Drawing.Point(898, 233);
+            this.dataCo2.Name = "dataCo2";
+            this.dataCo2.Size = new System.Drawing.Size(75, 13);
+            this.dataCo2.TabIndex = 21;
+            this.dataCo2.Text = "Colocado em: ";
             // 
-            // label131
+            // dataTemperatura
             // 
-            this.label131.AutoSize = true;
-            this.label131.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label131.Location = new System.Drawing.Point(50, 233);
-            this.label131.Name = "label131";
-            this.label131.Size = new System.Drawing.Size(101, 13);
-            this.label131.TabIndex = 20;
-            this.label131.Text = "Colocado em 23/02";
+            this.dataTemperatura.AutoSize = true;
+            this.dataTemperatura.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataTemperatura.Location = new System.Drawing.Point(50, 233);
+            this.dataTemperatura.Name = "dataTemperatura";
+            this.dataTemperatura.Size = new System.Drawing.Size(75, 13);
+            this.dataTemperatura.TabIndex = 20;
+            this.dataTemperatura.Text = "Colocado em: ";
             // 
             // button22
             // 
@@ -668,46 +668,47 @@
             this.button16.TabIndex = 12;
             this.button16.Text = "Ativar";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
-            // label130
+            // statusUmidade
             // 
-            this.label130.AutoSize = true;
-            this.label130.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label130.Location = new System.Drawing.Point(330, 206);
-            this.label130.Name = "label130";
-            this.label130.Size = new System.Drawing.Size(127, 17);
-            this.label130.TabIndex = 11;
-            this.label130.Text = "Status: Desativado";
+            this.statusUmidade.AutoSize = true;
+            this.statusUmidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusUmidade.Location = new System.Drawing.Point(330, 206);
+            this.statusUmidade.Name = "statusUmidade";
+            this.statusUmidade.Size = new System.Drawing.Size(56, 17);
+            this.statusUmidade.TabIndex = 11;
+            this.statusUmidade.Text = "Status: ";
             // 
-            // label129
+            // statusLuminosidade
             // 
-            this.label129.AutoSize = true;
-            this.label129.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label129.Location = new System.Drawing.Point(613, 206);
-            this.label129.Name = "label129";
-            this.label129.Size = new System.Drawing.Size(127, 17);
-            this.label129.TabIndex = 10;
-            this.label129.Text = "Status: Desativado";
+            this.statusLuminosidade.AutoSize = true;
+            this.statusLuminosidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusLuminosidade.Location = new System.Drawing.Point(613, 206);
+            this.statusLuminosidade.Name = "statusLuminosidade";
+            this.statusLuminosidade.Size = new System.Drawing.Size(56, 17);
+            this.statusLuminosidade.TabIndex = 10;
+            this.statusLuminosidade.Text = "Status: ";
             // 
-            // label128
+            // statusCo2
             // 
-            this.label128.AutoSize = true;
-            this.label128.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label128.Location = new System.Drawing.Point(898, 206);
-            this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(127, 17);
-            this.label128.TabIndex = 9;
-            this.label128.Text = "Status: Desativado";
+            this.statusCo2.AutoSize = true;
+            this.statusCo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusCo2.Location = new System.Drawing.Point(898, 206);
+            this.statusCo2.Name = "statusCo2";
+            this.statusCo2.Size = new System.Drawing.Size(56, 17);
+            this.statusCo2.TabIndex = 9;
+            this.statusCo2.Text = "Status: ";
             // 
-            // label127
+            // statusTemperatura
             // 
-            this.label127.AutoSize = true;
-            this.label127.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label127.Location = new System.Drawing.Point(50, 206);
-            this.label127.Name = "label127";
-            this.label127.Size = new System.Drawing.Size(127, 17);
-            this.label127.TabIndex = 8;
-            this.label127.Text = "Status: Desativado";
+            this.statusTemperatura.AutoSize = true;
+            this.statusTemperatura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusTemperatura.Location = new System.Drawing.Point(50, 206);
+            this.statusTemperatura.Name = "statusTemperatura";
+            this.statusTemperatura.Size = new System.Drawing.Size(56, 17);
+            this.statusTemperatura.TabIndex = 8;
+            this.statusTemperatura.Text = "Status: ";
             // 
             // label126
             // 
@@ -4631,7 +4632,7 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label label127;
+        private System.Windows.Forms.Label statusTemperatura;
         private System.Windows.Forms.Label label126;
         private System.Windows.Forms.Label label125;
         private System.Windows.Forms.Label label124;
@@ -4644,13 +4645,13 @@
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Label label130;
-        private System.Windows.Forms.Label label129;
-        private System.Windows.Forms.Label label128;
-        private System.Windows.Forms.Label label134;
-        private System.Windows.Forms.Label label133;
-        private System.Windows.Forms.Label label132;
-        private System.Windows.Forms.Label label131;
+        private System.Windows.Forms.Label statusUmidade;
+        private System.Windows.Forms.Label statusLuminosidade;
+        private System.Windows.Forms.Label statusCo2;
+        private System.Windows.Forms.Label dataUmidade;
+        private System.Windows.Forms.Label dataLuminosidade;
+        private System.Windows.Forms.Label dataCo2;
+        private System.Windows.Forms.Label dataTemperatura;
         private System.Windows.Forms.TabControl tabControl3;
         private System.Windows.Forms.TabPage tabPage12;
         private System.Windows.Forms.Button button24;
