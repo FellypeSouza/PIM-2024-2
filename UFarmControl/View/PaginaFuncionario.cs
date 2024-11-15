@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UFarmControl.View;
 
 namespace UFarmControl
 {
@@ -37,6 +38,7 @@ namespace UFarmControl
             viewFuncCargo.Text = "Cargo: " + funcionario.getCargo();
             viewFuncEmail.Text = "Email: " + funcionario.getEmail();
 
+            //Data dos sensores
             dataTemperatura.Text = "Colocado em: " + Convert.ToString(SensorTemperatura.getDataColocado());
             dataUmidade.Text = "Colocado em: " + Convert.ToString(SensorUmidade.getDataColocado());
             dataLuminosidade.Text = "Colocado em: " + Convert.ToString(SensorLuminosidade.getDataColocado());
@@ -46,38 +48,18 @@ namespace UFarmControl
             {
                 statusTemperatura.Text = "Status: Desativado";
             }
-            else
-            {
-                statusTemperatura.Text = "Status: Ativado";
-            }
             if (SensorUmidade.getStatus() == false)
             {
                 statusUmidade.Text = "Status: Desativado";
-            }
-            else
-            {
-                statusUmidade.Text = "Status: Ativado";
             }
             if (SensorLuminosidade.getStatus() == false)
             {
                 statusLuminosidade.Text = "Status: Desativado";
             }
-            else
-            {
-                statusLuminosidade.Text = "Status: Ativado";
-            }
             if (SensorCo2.getStatus() == false)
             {
                 statusCo2.Text = "Status: Desativado";
             }
-            else
-            {
-                statusCo2.Text = "Status: Ativado";
-            }
-
-
-
-            
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -112,8 +94,14 @@ namespace UFarmControl
 
         private void button16_Click(object sender, EventArgs e)
         {
+            MenuAtivarSensor MenuAtivarSensor = new MenuAtivarSensor();
+            MenuAtivarSensor.ShowDialog();
+        }
 
-            
+        private void button17_Click(object sender, EventArgs e)
+        {
+            MenuDesativarSensor MenuDesativarSensor = new MenuDesativarSensor();
+            MenuDesativarSensor.Show();
         }
     }
 }

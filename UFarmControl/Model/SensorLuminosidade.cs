@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace UFarmControl
 {
-    public partial class SensorCo2 : Sensor
+    public partial class SensorLuminosidade : Sensor
     {
-        public SensorCo2()
+        public SensorLuminosidade()
         {
             status = false;
-            //dataColocado = DateTime.Now;
+            dataColocado = DateTime.Now;
         }
     }
 }

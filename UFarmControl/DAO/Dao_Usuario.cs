@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.OracleClient;
+//using Oracle.ManagedDataAccess;
+//using Oracle.DataAccess.Client;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace UFarmControl

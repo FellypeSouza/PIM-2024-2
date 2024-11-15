@@ -17,10 +17,10 @@ namespace UFarmControl
         {
             this.status = status;
         }
-        public DateTime dataColocado = DateTime.Now;
-        public Boolean getDataColocado()
+        public DateTime dataColocado;
+        public DateTime getDataColocado()
         {
-            return status;
+            return dataColocado;
         }
         public void setDataColocado(DateTime dataColocado)
         {
@@ -29,7 +29,7 @@ namespace UFarmControl
         public Sensor()
         {
             status = false;
-            
+            dataColocado = DateTime.Now;
 
         }
     }

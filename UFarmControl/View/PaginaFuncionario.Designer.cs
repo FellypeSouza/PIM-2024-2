@@ -41,13 +41,6 @@
             this.dataLuminosidade = new System.Windows.Forms.Label();
             this.dataCo2 = new System.Windows.Forms.Label();
             this.dataTemperatura = new System.Windows.Forms.Label();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.statusUmidade = new System.Windows.Forms.Label();
             this.statusLuminosidade = new System.Windows.Forms.Label();
@@ -397,6 +390,7 @@
             this.viewFuncCep = new System.Windows.Forms.Label();
             this.viewFuncNome = new System.Windows.Forms.Label();
             this.labelNome = new System.Windows.Forms.Label();
+            this.button17 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -465,6 +459,7 @@
             // tabPage1
             // 
             this.tabPage1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage1.Controls.Add(this.button17);
             this.tabPage1.Controls.Add(this.button46);
             this.tabPage1.Controls.Add(this.button37);
             this.tabPage1.Controls.Add(this.button34);
@@ -474,13 +469,6 @@
             this.tabPage1.Controls.Add(this.dataLuminosidade);
             this.tabPage1.Controls.Add(this.dataCo2);
             this.tabPage1.Controls.Add(this.dataTemperatura);
-            this.tabPage1.Controls.Add(this.button22);
-            this.tabPage1.Controls.Add(this.button23);
-            this.tabPage1.Controls.Add(this.button20);
-            this.tabPage1.Controls.Add(this.button21);
-            this.tabPage1.Controls.Add(this.button18);
-            this.tabPage1.Controls.Add(this.button19);
-            this.tabPage1.Controls.Add(this.button17);
             this.tabPage1.Controls.Add(this.button16);
             this.tabPage1.Controls.Add(this.statusUmidade);
             this.tabPage1.Controls.Add(this.statusLuminosidade);
@@ -504,7 +492,7 @@
             // 
             // button46
             // 
-            this.button46.Location = new System.Drawing.Point(333, 318);
+            this.button46.Location = new System.Drawing.Point(333, 269);
             this.button46.Name = "button46";
             this.button46.Size = new System.Drawing.Size(202, 23);
             this.button46.TabIndex = 28;
@@ -513,7 +501,7 @@
             // 
             // button37
             // 
-            this.button37.Location = new System.Drawing.Point(615, 318);
+            this.button37.Location = new System.Drawing.Point(616, 269);
             this.button37.Name = "button37";
             this.button37.Size = new System.Drawing.Size(203, 23);
             this.button37.TabIndex = 27;
@@ -523,7 +511,7 @@
             // button34
             // 
             this.button34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button34.Location = new System.Drawing.Point(901, 318);
+            this.button34.Location = new System.Drawing.Point(901, 269);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(202, 23);
             this.button34.TabIndex = 26;
@@ -532,7 +520,7 @@
             // 
             // button31
             // 
-            this.button31.Location = new System.Drawing.Point(53, 318);
+            this.button31.Location = new System.Drawing.Point(52, 269);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(201, 23);
             this.button31.TabIndex = 25;
@@ -542,7 +530,7 @@
             // button41
             // 
             this.button41.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button41.Location = new System.Drawing.Point(53, 494);
+            this.button41.Location = new System.Drawing.Point(404, 494);
             this.button41.Name = "button41";
             this.button41.Size = new System.Drawing.Size(158, 32);
             this.button41.TabIndex = 24;
@@ -589,84 +577,14 @@
             this.dataTemperatura.TabIndex = 20;
             this.dataTemperatura.Text = "Colocado em: ";
             // 
-            // button22
-            // 
-            this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.Location = new System.Drawing.Point(450, 269);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(85, 32);
-            this.button22.TabIndex = 19;
-            this.button22.Text = "Desativar";
-            this.button22.UseVisualStyleBackColor = true;
-            // 
-            // button23
-            // 
-            this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.Location = new System.Drawing.Point(333, 269);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(85, 32);
-            this.button23.TabIndex = 18;
-            this.button23.Text = "Ativar";
-            this.button23.UseVisualStyleBackColor = true;
-            // 
-            // button20
-            // 
-            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button20.Location = new System.Drawing.Point(733, 269);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(85, 32);
-            this.button20.TabIndex = 17;
-            this.button20.Text = "Desativar";
-            this.button20.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.Location = new System.Drawing.Point(615, 269);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(85, 32);
-            this.button21.TabIndex = 16;
-            this.button21.Text = "Ativar";
-            this.button21.UseVisualStyleBackColor = true;
-            // 
-            // button18
-            // 
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.Location = new System.Drawing.Point(1018, 269);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(85, 32);
-            this.button18.TabIndex = 15;
-            this.button18.Text = "Desativar";
-            this.button18.UseVisualStyleBackColor = true;
-            // 
-            // button19
-            // 
-            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.Location = new System.Drawing.Point(902, 269);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(85, 32);
-            this.button19.TabIndex = 14;
-            this.button19.Text = "Ativar";
-            this.button19.UseVisualStyleBackColor = true;
-            // 
-            // button17
-            // 
-            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.Location = new System.Drawing.Point(169, 269);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(85, 32);
-            this.button17.TabIndex = 13;
-            this.button17.Text = "Desativar";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
             // button16
             // 
             this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.Location = new System.Drawing.Point(53, 269);
+            this.button16.Location = new System.Drawing.Point(52, 494);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(85, 32);
+            this.button16.Size = new System.Drawing.Size(158, 32);
             this.button16.TabIndex = 12;
-            this.button16.Text = "Ativar";
+            this.button16.Text = "Ativar sensores";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
@@ -4154,7 +4072,7 @@
             // label267
             // 
             this.label267.AutoSize = true;
-            this.label267.Location = new System.Drawing.Point(935, 309);
+            this.label267.Location = new System.Drawing.Point(950, 309);
             this.label267.Name = "label267";
             this.label267.Size = new System.Drawing.Size(119, 13);
             this.label267.TabIndex = 57;
@@ -4163,7 +4081,7 @@
             // label283
             // 
             this.label283.AutoSize = true;
-            this.label283.Location = new System.Drawing.Point(287, 308);
+            this.label283.Location = new System.Drawing.Point(300, 308);
             this.label283.Name = "label283";
             this.label283.Size = new System.Drawing.Size(119, 13);
             this.label283.TabIndex = 56;
@@ -4172,7 +4090,7 @@
             // label266
             // 
             this.label266.AutoSize = true;
-            this.label266.Location = new System.Drawing.Point(935, 280);
+            this.label266.Location = new System.Drawing.Point(936, 280);
             this.label266.Name = "label266";
             this.label266.Size = new System.Drawing.Size(133, 13);
             this.label266.TabIndex = 55;
@@ -4181,7 +4099,7 @@
             // label265
             // 
             this.label265.AutoSize = true;
-            this.label265.Location = new System.Drawing.Point(287, 280);
+            this.label265.Location = new System.Drawing.Point(286, 280);
             this.label265.Name = "label265";
             this.label265.Size = new System.Drawing.Size(133, 13);
             this.label265.TabIndex = 54;
@@ -4408,6 +4326,17 @@
             this.labelNome.Name = "labelNome";
             this.labelNome.Size = new System.Drawing.Size(0, 20);
             this.labelNome.TabIndex = 2;
+            // 
+            // button17
+            // 
+            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.Location = new System.Drawing.Point(228, 494);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(158, 32);
+            this.button17.TabIndex = 29;
+            this.button17.Text = "Desativar sensores";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // PaginaFuncionario
             // 
@@ -4637,13 +4566,6 @@
         private System.Windows.Forms.Label label125;
         private System.Windows.Forms.Label label124;
         private System.Windows.Forms.Label label123;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Label statusUmidade;
         private System.Windows.Forms.Label statusLuminosidade;
@@ -4847,5 +4769,6 @@
         private System.Windows.Forms.Button button46;
         private System.Windows.Forms.Button button37;
         private System.Windows.Forms.Button button34;
+        private System.Windows.Forms.Button button17;
     }
 }

@@ -47,64 +47,81 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cliente.cs" />
-    <Compile Include="Ctr_Funcionario.cs" />
-    <Compile Include="Ctr_Usuario.cs" />
-    <Compile Include="Dao_Usuario.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Controller\Ctr_Funcionario.cs" />
+    <Compile Include="Controller\Ctr_Usuario.cs" />
+    <Compile Include="DAO\Dao_Usuario.cs" />
+    <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="View\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Funcionario.cs" />
-    <Compile Include="Gerente.cs" />
-    <Compile Include="PaginaFuncionario.cs">
+    <Compile Include="Model\Funcionario.cs" />
+    <Compile Include="Model\Gerente.cs" />
+    <Compile Include="View\MenuAtivarSensor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PaginaFuncionario.Designer.cs">
+    <Compile Include="View\MenuAtivarSensor.Designer.cs">
+      <DependentUpon>MenuAtivarSensor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MenuDesativarSensor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MenuDesativarSensor.Designer.cs">
+      <DependentUpon>MenuDesativarSensor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PaginaFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PaginaFuncionario.Designer.cs">
       <DependentUpon>PaginaFuncionario.cs</DependentUpon>
     </Compile>
-    <Compile Include="PaginaGerente.cs">
+    <Compile Include="View\PaginaGerente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PaginaGerente.Designer.cs">
+    <Compile Include="View\PaginaGerente.Designer.cs">
       <DependentUpon>PaginaGerente.cs</DependentUpon>
     </Compile>
-    <Compile Include="paginaPrincipal.cs">
+    <Compile Include="View\paginaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="paginaPrincipal.Designer.cs">
+    <Compile Include="View\paginaPrincipal.Designer.cs">
       <DependentUpon>paginaPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="PaginaProprietario.cs">
+    <Compile Include="View\PaginaProprietario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PaginaProprietario.Designer.cs">
+    <Compile Include="View\PaginaProprietario.Designer.cs">
       <DependentUpon>PaginaProprietario.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Proprietario.cs" />
-    <Compile Include="Sensor.cs" />
-    <Compile Include="SensorCo2.cs" />
-    <Compile Include="SensorLuminosidade.cs" />
-    <Compile Include="SensorTemperatura.cs" />
-    <Compile Include="SensorUmidade.cs" />
-    <Compile Include="Usuario.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <Compile Include="Model\Proprietario.cs" />
+    <Compile Include="Model\Sensor.cs" />
+    <Compile Include="Model\SensorCo2.cs" />
+    <Compile Include="Model\SensorLuminosidade.cs" />
+    <Compile Include="Model\SensorTemperatura.cs" />
+    <Compile Include="Model\SensorUmidade.cs" />
+    <Compile Include="Model\Usuario.cs" />
+    <EmbeddedResource Include="View\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PaginaFuncionario.resx">
+    <EmbeddedResource Include="View\MenuAtivarSensor.resx">
+      <DependentUpon>MenuAtivarSensor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MenuDesativarSensor.resx">
+      <DependentUpon>MenuDesativarSensor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\PaginaFuncionario.resx">
       <DependentUpon>PaginaFuncionario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PaginaGerente.resx">
+    <EmbeddedResource Include="View\PaginaGerente.resx">
       <DependentUpon>PaginaGerente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="paginaPrincipal.resx">
+    <EmbeddedResource Include="View\paginaPrincipal.resx">
       <DependentUpon>paginaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PaginaProprietario.resx">
+    <EmbeddedResource Include="View\PaginaProprietario.resx">
       <DependentUpon>PaginaProprietario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -129,5 +146,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
